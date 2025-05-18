@@ -17,13 +17,13 @@ namespace P11___CustomArrayList
         public int Count
 		{
 			get { return count; }
-			set { count = value; }
+			private set { count = value; }
 		}		
 
 		public int Capacity
 		{
 			get { return capacity; }
-			set { capacity = value; }
+			private set { capacity = value; }
 		}
 
 		public CustomArrayList(int size=initialCapacity)
@@ -120,6 +120,42 @@ namespace P11___CustomArrayList
 
 			arr=copy;
 			count++;
+        }
+
+
+		public void RemoveAt(int index)
+		{
+            OutOfIndex(index);
+			for (int i = index; i < count -1; i++)
+			{
+				arr[i]= arr[i+1];
+			}
+			arr[count - 1] = null;
+			count--;
+        }
+
+		public bool Contains(object item)
+		{
+            for (int i = 0; i < count; i++)
+            {
+                if (arr[i].Equals(item))
+                {
+					return true;
+                }				
+            }
+            return false;
+        }
+
+		public int IndexOf(object item)
+		{
+            for (int i = 0; i < count; i++)
+            {
+				if (arr[i].Equals(item))
+				{
+					return i;
+				}
+            }
+			return -1;
         }
 
 		public void Clear()

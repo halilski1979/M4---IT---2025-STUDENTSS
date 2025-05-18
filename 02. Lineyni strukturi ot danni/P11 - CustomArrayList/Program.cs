@@ -13,18 +13,17 @@ namespace P11___CustomArrayList
             arrayList.Add(10);
             arrayList.Add("Name");
             arrayList.Add('!');
-            arrayList.Add(true);
-
-            Console.WriteLine(arrayList.Get(1));
-
-            Console.WriteLine();
-            arrayList.Insert(1, "Mercedes");
-            Console.WriteLine(arrayList.Get(1));
+            arrayList.Add(true);                
+                     
 
             foreach (var item in arrayList)
             {
                 Console.WriteLine(item);
             }
+
+            Console.WriteLine();
+            Console.WriteLine(arrayList.IndexOf(11)); 
+
         }
     }
 }

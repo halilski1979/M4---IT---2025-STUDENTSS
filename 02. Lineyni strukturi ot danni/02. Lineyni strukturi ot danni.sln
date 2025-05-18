@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02 - Queue - OPASHKA", "P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03 - Stack - STEK", "P03 - Stack - STEK\P03 - Stack - STEK.csproj", "{77800EB2-E481-4B66-803A-31B4969CF51D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12 - ArrayStack", "P12 - ArrayStack\P12 - ArrayStack.csproj", "{BDACD3D6-96CA-43A9-B37A-2D48B5964CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13 - ReversedList", "P13 - ReversedList\P13 - ReversedList.csproj", "{2E44CEBA-73B0-475F-8AEA-C612D05E5480}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{77800EB2-E481-4B66-803A-31B4969CF51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77800EB2-E481-4B66-803A-31B4969CF51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77800EB2-E481-4B66-803A-31B4969CF51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDACD3D6-96CA-43A9-B37A-2D48B5964CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDACD3D6-96CA-43A9-B37A-2D48B5964CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDACD3D6-96CA-43A9-B37A-2D48B5964CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDACD3D6-96CA-43A9-B37A-2D48B5964CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E44CEBA-73B0-475F-8AEA-C612D05E5480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E44CEBA-73B0-475F-8AEA-C612D05E5480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E44CEBA-73B0-475F-8AEA-C612D05E5480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E44CEBA-73B0-475F-8AEA-C612D05E5480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

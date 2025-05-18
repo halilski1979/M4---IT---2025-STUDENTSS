@@ -48,6 +48,8 @@
             //Clear
             stack.Clear();
             Console.WriteLine(stack.Pop());
+
+
         }
     }
 }
