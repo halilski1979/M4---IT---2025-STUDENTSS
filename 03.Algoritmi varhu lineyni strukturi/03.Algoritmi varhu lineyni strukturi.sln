@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36121.58 d17.14
+VisualStudioVersion = 17.14.36121.58
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. InsertMethod", "01. InsertMethod\01. InsertMethod.csproj", "{5340E9A1-690A-4643-9831-815FADFD6BC3}"
 EndProject
@@ -22,6 +22,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. ChestotaSreshtaniq", "07. ChestotaSreshtaniq\07. ChestotaSreshtaniq.csproj", "{72DF9594-3C4D-4289-A613-B126C90C22DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. MajorantMasiv", "08. MajorantMasiv\08. MajorantMasiv.csproj", "{3B008777-D728-4592-9E16-35643C445827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Direktorii - BFS", "09. Direktorii - BFS\09. Direktorii - BFS.csproj", "{3123ECDC-EE05-42D0-BD1F-10788843E22E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Rekursia - SumArray", "10. Rekursia - SumArray\10. Rekursia - SumArray.csproj", "{BF5A75FC-8D91-40F0-A380-7AA3D03EA91A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Faktoriel", "11. Faktoriel\11. Faktoriel.csproj", "{FE0E3455-DF54-436F-A2A4-F3877A036052}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{3B008777-D728-4592-9E16-35643C445827}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B008777-D728-4592-9E16-35643C445827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B008777-D728-4592-9E16-35643C445827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3123ECDC-EE05-42D0-BD1F-10788843E22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3123ECDC-EE05-42D0-BD1F-10788843E22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3123ECDC-EE05-42D0-BD1F-10788843E22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3123ECDC-EE05-42D0-BD1F-10788843E22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5A75FC-8D91-40F0-A380-7AA3D03EA91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5A75FC-8D91-40F0-A380-7AA3D03EA91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5A75FC-8D91-40F0-A380-7AA3D03EA91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5A75FC-8D91-40F0-A380-7AA3D03EA91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0E3455-DF54-436F-A2A4-F3877A036052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0E3455-DF54-436F-A2A4-F3877A036052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0E3455-DF54-436F-A2A4-F3877A036052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0E3455-DF54-436F-A2A4-F3877A036052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
